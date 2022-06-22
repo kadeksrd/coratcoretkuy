@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // function pertambahan 
+
+        let jumlah = (a,b) => a+b;
+        let kali = (b,c) => b*c;
+        console.log (jumlah(1,2));
+        console.log (kali(3,5));
+        
+        // function kubus;
+
+        let jumlahDuaSisiKubus = (a,b) => {
+            let volume1 = a*a*a
+            let volume2 = b*b*b
+
+            total = volume1 + volume2
+
+            return total;
+        }
+
+        console.log(jumlahDuaSisiKubus(1,2));
+
+        // function tambah semua 
+        function tambah () {
+            let hasil = 0;
+            for(let i = 0; i<arguments.length; i++){
+                hasil +=arguments[i];
+            }
+            return hasil;
+        }
+        console.log(tambah(1,2,3,4,5,6,7))
+
+    </script>
+</body>
+</html>     
